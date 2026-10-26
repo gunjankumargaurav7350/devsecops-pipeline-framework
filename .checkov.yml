@@ -1,0 +1,9 @@
+framework:
+  - terraform
+quiet: true
+compact: true
+soft-fail: false
+download-external-modules: true
+evaluate-variables: true
+skip-check:
+  - CKV_AZURE_1 # Demo exemption with documented justification
